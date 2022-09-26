@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration 
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+  <!-- DB접근은 root-context가 다 갖고 있으니까 별칭만 잡아주면 됨 -->
+  <configuration>
+  	<typeAliases>
+  		<typeAlias type="com.human.basic.domain.BoardVO" alias="board"/>
+  	</typeAliases>
+  </configuration>
